@@ -1,0 +1,98 @@
+.customer{
+    .searchbar{
+        border-left: 0px !important;
+        padding: 5px 13px;
+        border-color: #B8D0E9;
+        background-color: #fff;
+        height: 50px;
+        font-size: 16px;
+    }
+    .searchicon{
+        border-right: 0px;
+        border-top: 1px solid #B8D0E9;
+        border-bottom: 1px solid #B8D0E9;
+        border-left: 1px solid #B8D0E9;
+        border-radius: 5px 0 0 5px;
+        background-color: #fff;
+        padding: 5px 0px 5px 13px;
+    }
+    
+
+    .filter_wrp{
+        margin-top:38px;
+    }
+    .print_btn{
+        @media (max-width:1680px){
+            padding: 0px 10px;
+        }
+    }
+    .small_resolution{
+        @media (max-width:1400px){
+            padding-left: 0px !important;
+        }
+    }
+}
+
+
+    .active_btn{
+        background-color: #38B586;
+        padding: 0 15px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .expaired_btn{
+        background-color: #D0021B;
+        padding: 0 15px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 3px;
+        display: inline-block;
+    }
+
+    .total_calc_wrp{
+        padding: 10px 16px;
+    }
+
+.addon-icon{
+    position: absolute;
+    left: 10px;
+    background-color: #fff;
+    top: 13px;
+}
+
+.payfor_friend{
+    position: relative;
+    top: -3px;
+    left: 5px;
+}
+
+.table_div{
+    // padding: 10px;
+
+    &_head{
+        padding: 0 15px;
+
+        &_cell{
+            float: left;
+            max-width: 100%;
+            padding: 10px 0;
+        }
+    }
+
+    &_body{
+        &_cell{
+            float: left;
+            padding: 15px;
+            // word-break: break-all;
+        }
+    }
+    &_cell{
+        float: left;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+

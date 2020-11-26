@@ -1,0 +1,188 @@
+/*Social Icons styles*/
+
+.share_icons{
+  margin: 0;
+  padding: 0;
+}
+.share_icons li{
+  list-style-type: none;
+}
+
+.social_icongroup{
+    background-image: url(../images/social-icons.png);
+    background-repeat: no-repeat;
+    background-size: 180px auto;
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+}
+
+.div_wrap{
+    display: block;
+    color: #fff;
+    padding: 7px 10px !important;
+    border-radius: 3px;
+    margin-right:8px;
+    margin-bottom:8px;
+    font-size:15px;
+    width:144px;
+    position: relative;
+}
+.a2a_default_style a{
+  line-height: 23px !important;
+  color: #fff !important
+}
+.a2a_default_style a:hover{
+  color: #fff !important
+}
+
+/* ============= Facebook ==============*/
+
+a.fb_div{
+    background-color: #3B5998;
+}
+.fb{
+    background-position: -7px 0px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Twitter ==============*/
+a.tw_div{
+    background-color: #55ACEE;
+}
+.tw{
+    background-position: -57px -32px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Gmail ==============*/
+a.gmail_div{
+    background-color: #DD5347;
+}
+.gmail{
+    background-position: -131px -31px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Whatsapp ==============*/
+a.wapp_div{
+    background-color: #12AF0A;
+}
+.wapp{
+    background-position: -108px -32px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Linkdin ==============*/
+a.ln_div{
+    background-color: #007BB5;
+}
+.ln{
+    background-position: -57px -3px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Skype ==============*/
+a.skp_div{
+    background-color: #00AFF0;
+}
+.skp{
+    background-position: -31px -63px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Email ==============*/
+a.email_div{
+    background-color: #0166FF;
+}
+.email{
+    background-position: -30px -2px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Telegram ==============*/
+a.tgm_div{
+    background-color: #2CA5E0;
+}
+.tgm{
+    background-position:-83px -32px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Tumblr ==============*/
+a.tm_div{
+    background-color: #35465C;
+}
+.tm{
+    background-position:-101px -3px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Line ==============*/
+a.line_div{
+    background-color: #00C300;
+}
+.line{
+    background-position: -128px -3px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Outlook ==============*/
+a.ol_div{
+    background-color: #0072C6;
+}
+.ol{
+    background-position: -4px -63px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= SMS ==============*/
+a.sms_div{
+    background-color: #6CBE45;
+}
+.sms{
+    background-position: -157px -2px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Viber ==============*/
+a.vb_div{
+    background-color: #7C529E;
+}
+.vb{
+    background-position: -57px -64px;
+    height: 19px;
+    width: 19px;
+}
+
+/* ============= Yahoo mail ==============*/
+a.ym_div{
+    background-color: #400090;
+}
+.ym{
+    background-position: -32px -33px;
+    height: 19px;
+    width: 19px;
+}
+
+.model_close_btn{
+      background-color: #000000;
+    color: #aeaeae !important;
+    border-radius: 50% !important;
+        height: 50px !important;
+    width: 50px;
+    font-size: 23px;
+    border: none;
+}

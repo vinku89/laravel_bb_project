@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(../fonts/Gotham-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url(../fonts/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Multicolore';
+    src: url(../fonts/Multicolore.otf);
+}
+
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url(../fonts/VarelaRound-Regular.otf);
+}
+
+@import 'partials/nav';
+@import 'partials/landing';
+@import 'partials/footer';
+@import 'partials/slider';

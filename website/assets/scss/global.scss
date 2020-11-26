@@ -1,0 +1,456 @@
+// width
+
+// @for $i from 0 to 100 {
+//     .w#{$i} {
+//         width: $i + %;
+//     }
+// }
+
+// font-size
+@for $i from 0 to 100 {
+    .f#{$i} {
+        font-size: $i + px;
+    }
+}
+
+// width
+
+@for $i from 0 to 100 {
+    .w#{$i} {
+        width: percentage( $i / 100 );
+    }
+}
+
+.vam {
+    vertical-align: middle;
+}
+
+.bb_width{
+    @media (min-width: 1700px){
+        max-width: 1700px !important;
+    }
+
+    @media (min-width: 1400px) and (max-width: 1699.99px){
+        max-width: 1500px !important;
+    }
+
+    &-md{
+        @media (min-width: 1700px){
+            max-width: 1400px !important;;
+        }
+    
+        @media (min-width: 1400px) and (max-width: 1699.99px){
+            max-width: 1200px !important;;
+        }
+    }
+}
+
+.text-color{
+    &-primary{
+        color: #58595B;
+    }
+
+    &-dark{
+        color: #231F20;
+    }
+
+    &-orange{
+        color: #F67E51;
+    }
+
+    &-purple{
+        color: #A02C72;
+    }
+}
+
+.font{
+    &-title{
+        font-family: 'Multicolore';
+    }
+
+    &-primary{
+        font-family: 'Gotham-Medium';
+
+        &-bold{
+            font-family: 'Gotham-Bold';
+        }
+
+        &-book{
+            font-family: 'Gotham-Book';
+        }
+    }
+
+
+    &-secondary{
+        font-family: 'VarelaRound-Regular';
+
+        &-bold{
+            font-weight: 800;
+        }
+    }
+}
+
+// Font Sizes
+
+.font-size{
+
+    // font size 80px
+    &-xxxxl {
+        @media (min-width: 1700px){
+            font-size: 80px;
+            line-height: 90px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 60px;
+            line-height: 70px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    // font size 70px
+    &-xxxl {
+        @media (min-width: 1700px){
+            font-size: 70px;
+            line-height: 80px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 62px;
+            line-height: 72px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 55px;
+            line-height: 65px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 48px;
+            line-height: 58px;
+        }
+    }
+    // font size 66px
+    &-xxl{
+        @media (min-width: 1700px){
+            font-size: 66px;
+            line-height: 76px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 58px;
+            line-height: 68px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 52px;
+            line-height: 62px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 42px;
+            line-height: 52px;
+        }
+    }
+    // font size 53px
+    &-xl{
+        @media (min-width: 1700px){
+            font-size: 53px;
+            line-height: 63px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 40px;
+            line-height: 55px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 32px;
+            line-height: 42px;
+        }
+    }
+    // font size 31px
+    &-lg{
+        @media (min-width: 1700px){
+            font-size: 31px;
+            line-height: 41px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 29px;
+            line-height: 39px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+    // font size 28px
+    &-md{
+        @media (min-width: 1700px){
+            font-size: 28px;
+            line-height: 38px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+    // font size 21px
+    &-sm{
+        @media (min-width: 1700px){
+            font-size: 21px;
+            line-height: 31px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 14px;
+            line-height: 26px;
+        }
+    }
+    // font size 18px
+    &-xs{
+        @media (min-width: 1700px){
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        @media (min-width: 1300px) and (max-width: 1699.99px){
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1299.99px){
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        @media (max-width: 991.9px){
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+}   
+
+.bg{
+    &-orange{
+        background-color: #F67E51;
+    }
+
+    &-purple{
+        background-color: #A02C72;
+    }
+}
+
+.btn{
+
+    &-bb{
+        color: #fff;
+    }
+    &-orange{
+        background-color: #F67E51;
+    }
+    &-purple{
+        background-color: #A02C72;
+    }
+    &-rounded{
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-family: 'Gotham-Medium';
+        &:hover{
+            -webkit-filter: brightness(90%);
+            filter: brightness(90%);
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+            text-decoration: none;
+        }
+    }
+}
+
+.w-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  
+  @media (min-width: 576px) {
+    .w-sm-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .w-md-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .w-lg-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .w-xl-20 {
+      -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 20% !important;
+      flex: 0 0 20% !important;
+      max-width: 20% !important;
+    }
+  }
+
+.fullvh{
+    height: 100vh !important;
+}
+
+// live chat
+#content-container #content {
+    background: #4781D9;
+  }
+  
+  #open-icon, #open-label {
+    color: #ffffff;
+  }
+
+  .icon-minimize, .icon-close, #open-icon {
+    color: #F00;
+  }
+
+  #operators .icon-thumbs-up, #operators .icon-thumbs-down, #operators #email_transcript .icon-email, #send-file-clip .icon-clip {
+    color: #0081FF;
+  }
+
+.bb_page{
+    min-height: 1000px;
+      &_title{
+          position: relative;
+          height: 207px;
+          top: 75px;
+          display: table;
+          width: 100%;
+
+          &_text{
+              vertical-align: middle;
+              display: table-cell;
+              z-index: 999;
+              color: #FFF462;
+            //   font-size: 48px;
+          }
+        &:before{
+            background-image: url("../images/sub_bg.png");
+            content: '';
+            clear: both;
+            width: 100%;
+            max-height: 207px;
+            height: 100%;
+            position: absolute;
+            display: block;
+            background-position: right;
+            z-index: -1;
+            
+        }
+    }
+
+    &_content{
+        padding-top: 70px;
+        font-family: 'Gotham-Book';
+    }
+}
+
+
+
+ol.main {list-style-type: lower-alpha;
+    li{
+        list-style-type: lower-alpha;
+        ol.sub {list-style-type: lower-roman;
+            li{
+                list-style-type: lower-roman;
+            }
+        }
+    }
+}
+
+ol.num{
+    list-style: decimal !important;
+    li{
+        list-style: decimal !important;
+    }
+}
+
+ul.num{
+    list-style: decimal !important;
+    li{
+        list-style: decimal !important;
+    }
+}
+
+li.num{
+    list-style: decimal !important;
+}
+
+ul.disc{
+    list-style: disc;
+    padding-left: 30px;
+    li{
+        list-style: disc;
+    }
+}
+
+li.disc{
+    list-style: disc
+}
+

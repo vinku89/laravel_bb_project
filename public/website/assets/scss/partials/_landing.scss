@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+$font_medium: "Varela Round";
+$font_bold: "Varela Round";
+$font_light: "Varela Round";
+$font_semibold: "Varela Round";
+$font_thin: "Varela Round";
+
+.bestbox-hero{
+    .carousel{
+        &-item {
+            height: 100%;
+            min-height: 300px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        &-inner{
+            height: calc(100vh - 0px);
+        }
+        &-caption {
+            position: absolute;
+            top: calc(50vh - 220px);
+            left: 0;
+            right: 0% !important;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: left;
+            display: block !important;
+            margin: 0 auto;
+            @media (min-width: 1200px) and (max-width: 1400px){
+                top: calc(50vh - 220px);
+            }
+            @media (max-width: 768px){
+                top: calc(50vh - 220px);
+            }  
+
+            h2{
+                @media (max-width: 768px){
+                    font-size: 28px !important;
+                    line-height: 36px !important; 
+                    text-align: center;
+                }  
+            }
+
+            h3 {
+                font-size: 76px;
+                font-style: italic;
+                font-family: "Varela Round";
+                animation-delay: 1s;
+                @media (min-width: 992px) and (max-width: 1400px){
+                    font-size: 56px;
+                    line-height: 60px
+                }
+                @media (max-width: 991.99px){
+                    font-size: 40px;
+                    line-height: 42px
+                }
+            }
+            p {
+                animation-delay: 2s;
+                font: {
+                    size: 46px;
+                    style: italic;
+                    family: "Varela Round";
+                }
+                line-height: 54px;
+                @media (min-width: 992px) and (max-width: 1400px){
+                    font-size: 36px;
+                    line-height: 42px
+                }
+                @media (max-width: 991.99px){
+                    font-size: 20px;
+                    line-height: 28px
+                }
+            }
+
+            h2{
+                font: {
+                    size: 60px;
+                    style: normal;
+                    family: "Varela Round";
+                }
+                line-height: 66px;
+            }
+        }
+    }
+}
+
+// Footer
+
+.footer{
+    background-color: #201E25;
+    &-logo{
+        background-color: transparent;
+    }
+
+    &-links{
+        ul{
+            padding: 0;
+            margin: 20px 0;
+            li{
+                margin: 10px 0;
+                a{
+                    color: #fff;
+                    font-family: $font_medium;
+                }
+            }
+        }
+    }
+
+    &-social{
+        position: relative;
+        text-align: center;
+        ul{
+            padding: 0 20px;
+            margin: 20px 0;
+            text-align: center;
+            background-color: #2B2B2B;
+            z-index: 9999;
+            position: relative;
+            display: inline-block;
+            li{
+                margin: 10px 3px;
+                display: inline-block;
+                a{
+                    color: #fff;
+                    font-family: $font_bold;
+                }
+            }
+        }
+        &:after{
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            background-color: #fff;
+            top:50%;
+            left: 0;
+            right: 0;
+            content: '';
+            clear: both;
+            z-index: 0;
+        }
+    }
+}
+
+// bestbox
+
+// Hero-Section
+
+.hero-section{
+    padding-top: 0px;
+
+    @media (max-width: 1441px){
+        padding-top: 0px;
+    }
+}

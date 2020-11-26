@@ -1,0 +1,191 @@
+.vod_main_body_section {
+  background-color: #2A2A2A; }
+
+.vod_banerWrp {
+  height: 500px;
+  position: relative;
+ /* overflow: hidden;*/ }
+  .vod_banerWrp img{
+	float: right;
+    height: 100%;
+    width: 70%;
+	 }
+  .vod_banerWrp .vod_bannerContent_wrp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #000000 10%, rgba(57, 57, 57, 0.74) 55%, rgba(216, 216, 216, 0) 100%); }
+    .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(0deg, #2A2A2A 4%, rgba(200, 200, 200, 0) 16%, rgba(216, 216, 216, 0) 100%); }
+      .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info {
+        padding: 30px 0 0 35px; }
+        .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info h1 {
+          margin: 0;
+          padding: 0;
+          color: #ffffff;
+          font-weight: bold; }
+
+          @media (max-width:1475px){
+            .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info h1{
+                  font-size: 30px;
+            }
+          }
+
+        .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating {
+          clear: both; }
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating .fa-star,
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating .fa-star-half-alt {
+            color: orange;
+            font-size: 20px; }
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating .hd_tag {
+            background-color: #7C86A2;
+            border-radius: 2px;
+            font-size: 16px;
+            color: #38393E;
+            font-weight: bold;
+            text-align: center;
+            padding: 0 8px;
+            margin-left: 10px; }
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating ul {
+            margin: 0;
+            padding: 0;
+            display: inline-block; }
+            .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating ul li {
+              list-style-type: none;
+              font-size: 16px;
+              color: #bdbdbd;
+              float: left;
+              margin-right: 10px;
+              line-height: 11px;    font-weight: bold;}
+              .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info .movie_rating ul li:first-child {
+               /* border-right: solid 1px #bdbdbd;*/ 
+                padding-right: 10px;
+              /*  margin-left: 10px;*/ }
+        .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info p.movie_intro {
+          font-size: 16px;
+          color: #ffffff;
+          margin-top: 5px;
+          margin-bottom: 0; }
+        .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info a.trailer_btn {
+          display: inline-block;
+          border: solid 1px #b1b1b1;
+          border-radius: 7px;
+          padding: 5px 15px;
+          color: #b1b1b1;
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 10px;
+          transition: .8s; }
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info a.trailer_btn .fa-play-circle {
+            color: orange;
+            margin-right: 3px;
+            font-size: 16px; }
+          .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info a.trailer_btn:hover {
+            border: solid 1px orange;
+            text-decoration: none;
+            color: #000;
+            background-color: orange; }
+            .vod_banerWrp .vod_bannerContent_wrp .vod_bannerinner_Content_wrp .movie_info a.trailer_btn:hover .fa-play-circle {
+              color: #000; }
+
+.vod_player_section {
+  width: 100%;
+  padding: 0 35px 0 35px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 90px; 
+  height: 800px;
+  } 
+/*  @media (min-width: 1399px) {
+    .vod_player_section {
+      height: calc(100% - 200px); } }
+  @media (max-width: 1399px) {
+    .vod_player_section {
+      height: 100%; } }
+	    @media (max-width: 1750px) {
+    .vod_player_section {
+      margin-top: -100px; } }
+  @media (max-width: 1550px) {
+    .vod_player_section {
+      /*margin-top: -200px; } }*/
+	  
+.web_series_section {
+  width: 100%;
+  /* padding: 0 35px 0 35px !important; */
+/*  margin-top: -120px;*/
+  position: relative;
+  margin-bottom: 90px; 
+  height: 800px;
+  } 
+
+
+/*	    @media (max-width: 1750px) {
+    .web_series_section {
+      margin-top: -100px; } }
+  @media (max-width: 1550px) {
+    .web_series_section {
+      margin-top: -200px; } }*/
+
+
+/* .info_wrapper {
+  width: 55%; 
+  min-height: 300px;
+  margin-bottom: 20px; 
+}
+  @media (max-width: 1499px) {
+    .info_wrapper {
+      width: 65%; } }
+  @media (max-width: 1199px) {
+    .info_wrapper {
+      width: 70%; } } */
+
+.player_wrp {
+  border-radius: 15px;
+  border: solid 1px #979797;
+  background-color: #3C3C3C;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.example-video1-dimensions.play-fluid {
+  padding-top: inherit !important; }
+
+.play-js.play-fluid {
+  height: 100% !important; }
+
+.closeBtn {
+  position: absolute;
+  top: -20px;
+  right: -15px;
+  z-index: 1;
+  text-shadow: none !important;
+  color: #000 !important;
+  font-size: 30px;
+  background-color: #fff !important;
+  opacity: 1;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px; }
+
+.movie_trailer .modal-content {
+  background-color: #2A2A2A !important;
+  border: solid 1px #979797; }
+
+/*.vodbanner_height{
+  min-height: 500px !important;
+}*/
+
+.livetv-margin{
+  margin-top:-380px !important;
+}
+
+
+

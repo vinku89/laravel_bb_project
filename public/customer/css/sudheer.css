@@ -1,0 +1,229 @@
+.accordion-container {
+  position: relative;
+  max-width: 900px;
+  height: auto;
+  margin: -1px auto;
+  width: 100%;
+}
+
+.accordion-container>h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.set {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  border: 1px solid #E3ECFB;
+}
+
+.set>a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.set>a i {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.set>a.active {
+  background-color: #E3F7FE;
+  color: #333;
+}
+
+.content {
+  display: none;
+  background-color: #E3F7FE;
+}
+
+.set_user {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 40px;
+}
+
+.text-blue {
+  color: #0096DA;
+}
+
+.form-width {
+  max-width: 100% !important;
+}
+
+
+@media (max-width:767px) {
+  .search_wrap {
+    max-width: 100% !important;
+  }
+}
+
+.dashboard_all_values .item_4 {
+  width: 18%;
+  border-right: solid 1px #B8D0E9;
+  background-color: #F7FBFF;
+  padding: 20px 15px 30px 20px;
+  display: table-cell;
+}
+
+@media (max-width:767px) {
+  .customer-wr .wallet-balance_bg .dashboard_main_btns .btn_wrap {
+    width: 100%;
+
+  }
+
+  .customer-wr .wallet-balance_bg .dashboard_main_btns .btn_wrap:nth-child(1) {
+    border-radius: 0;
+    margin-bottom: 2px;
+  }
+
+  .customer-wr .wallet-balance_bg .dashboard_main_btns .btn_wrap:nth-child(3) {
+    border-radius: 0;
+    margin-top: 2px;
+  }
+
+  .customer-wr .dashboard_all_values .item_1 {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .customer-wr .dashboard_all_values .item_2 {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .customer-wr .dashboard_all_values .item_3 {
+    width: 50% !important;
+    display: inline-block !important;
+    min-height: 173px;
+    top: -22px;
+    position: relative;
+    border-left:solid 1px #B8D0E9;
+  }
+
+  .customer-wr .dashboard_all_values .item_4 {
+    width: 50% !important;
+    display: inline-block !important;
+    min-height: 170px;
+  }
+}
+
+@media (min-width:577px) and (max-width: 991px) {
+  .customer-wr .iptv_box_wrp {
+    width: 47%;
+  }
+}
+
+@media (max-width:576.99px) {
+  .customer-wr .iptv_box_wrp {
+    width: 100%;
+  }
+}
+
+@media (min-width: 300px) and (max-width:575px) {
+  .customer-wr .dashboard_all_values .item_3 {
+    width: calc(50% - 2px) !important;
+  }
+
+  .customer-wr .dashboard_all_values .item_4 {
+    width: calc(50% - 3px) !important;
+  }
+}
+
+/* Referral */
+
+.referral-summary {
+  display: table;
+  width: 100%;
+}
+
+.referral-summary-left {
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #B8D0E9;
+  border-radius: 5px 0 0 5px;
+  padding: 15px;
+  position: relative;
+}
+
+.referral-summary-right {
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  background: #F7FBFF;
+  border: 1px solid #B8D0E9;
+  border-radius: 0 5px 5px 0;
+  left: -1px;
+  position: relative;
+  padding: 15px;
+}
+
+.error {
+  color: red;
+}
+
+/* Refferral Responsive */
+
+@media (max-width: 767.99px){
+  .referral-summary {
+    display: block;
+  }
+  
+  .referral-summary-left {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px 5px 0 0px;
+  }
+  
+  .referral-summary-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #F7FBFF;
+    border: 1px solid #B8D0E9;
+    border-radius: 0 0px 5px 5px;
+    left: 0px;
+    top: -1px;
+    padding: 5px 15px
+  }
+
+  .lh-sm-45{
+    line-height: 45px;
+  }
+}
+
+.set_user{
+  color: #000 !important;
+}
+
+.set i{
+  color: #000 !important;
+}
+
+.ml-200 {
+  margin-left: 200px !important;}
+
+  .error{color:red;}
+
+
+.order_wrapper{
+  position: relative;
+  padding: 15px 25px;
+}

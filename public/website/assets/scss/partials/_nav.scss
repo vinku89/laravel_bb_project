@@ -1,0 +1,94 @@
+$font_medium: "Varela Round";
+$font_bold: "Varela Round";
+$font_light: "Montserrat_Light";
+$font_semibold: "Montserrat_SemiBold";
+$font_thin: "Montserrat_Thin";
+.navbar-bestbox{
+    background-color: transparent;
+    @media (min-width: 1440px){
+        height: 100px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        font-family: $font_medium;
+        line-height: 16px;
+        color: #fff;
+        @media (max-width: 991px){
+            font-size: 14px;
+        }
+        @media (min-width: 1200px) and (max-width: 1400px){
+            font-size: 14px;
+        }
+    }
+}
+.scrolled {
+    background-color: #201E25;
+    transition: 0.3s;
+}
+.navbar-bestbox.scrolled{
+    height:70px !important;
+}
+.navbar-bestbox.navbar-expand-xl .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-toggler{
+    z-index: 999999;
+    position: relative;
+    padding-left: 1.25em;
+
+    &.navbar-toggler:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.25em;
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff;
+    }
+
+    &.newopen{
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.25em;
+            width: 30px;
+            height: 2px;
+            background: #fff;
+            transform: rotate(45deg);
+            transform-origin: 0% 0%;
+            box-shadow: 0 10px 0 0 transparent, 0 -20px 0px 0px transparent;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.25em;
+            width: 30px;
+            height: 2px;
+            background: transparent;
+            transform: rotate(-45deg);
+            transform-origin: 75% 0%;
+            box-shadow: -9px -2px 0px 0 #fff, 0 20px 0 0 transparent;
+        }
+    }
+}
+
+.navbar-brand{
+    @media (max-width: 380px){
+        width: 240px;
+    }
+}
+
+.navbar-collapse.offcanvas-collapse{
+    ul{
+        li{
+            @media (max-width: 1199.99px){
+                margin: 10px 20px !important;
+            }
+        }
+    }
+}

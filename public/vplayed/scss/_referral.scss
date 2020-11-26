@@ -1,0 +1,27 @@
+.referral-summary{
+    display: table;
+    width: 100%;
+
+    &-left{
+        display: table-cell;
+        width: 50%;
+        text-align: center;
+        background: #FFFFFF;
+        border: 1px solid #B8D0E9;
+        border-radius: 5px 0 0 5px;
+        padding: 15px;
+        position: relative;
+    }
+    &-right{
+        display: table-cell;
+        width: 50%;
+        text-align: center;
+        background: #F7FBFF;
+        border: 1px solid #B8D0E9;
+        border-radius: 0 5px 5px 0;
+        // margin-left: -1px;
+        left: -1px;
+        position: relative;
+        padding: 15px;
+    }
+}     

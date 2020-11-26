@@ -1,0 +1,169 @@
+*,
+:focus {
+    outline: 0 !important
+}
+
+.bsnav-body-wrapper {
+    padding-bottom: 100px
+}
+
+.navbar-brand {
+    background: url(../images/bestbox_logo.png) center/cover no-repeat;
+    font-size: 0;
+    width: 270px;
+    height: 72px;
+    min-height: 28px;
+    margin: 18px 15px 18px 0;
+    opacity: 1;
+
+    @media (max-width: 575.99px){
+        // background: url(../images/bestbox_logo_small.png) center/cover no-repeat;
+        width: 225px;
+        height: 60px;
+    }
+}
+
+.bsnav-brand-top .navbar-brand {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.bsnav-light .navbar-brand,
+.bsnav-overlay .navbar-brand,
+.bsnav-overlay-light .navbar-brand {
+    opacity: .8
+}
+
+.bsnav-dark .navbar-brand,
+.bsnav-light .navbar-brand,
+.bsnav-overlay .navbar-brand {
+    background: url(images/brand-white.png) center/cover no-repeat
+}
+
+.span {
+    background: #eee;
+    color: #999;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px
+}
+
+.bsnav-sticky {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+}
+
+.scrollspy-demo {
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center
+}
+
+.scrollspy-demo:nth-child(odd) {
+    background: #f7f7f7
+}
+
+/*# sourceMappingURL=examples.min.css.map */
+
+.navbar.navbar-expand-sm.bsnav {
+    background-color: #2E0E37;
+}
+
+.bestbox-nav {
+    .navbar-nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        .nav-item {
+            margin: 0 10px;
+
+            @media (min-width: 1200px) and (max-width: 1399.99px){
+                margin: 0 auto;
+            }
+
+            &.active {
+                &>.nav-link {
+                    background-color: #2E0E37 !important;
+                    color: #ccc;
+                }
+            }
+
+            &:hover {
+                &>.nav-link {
+                    background-color: #2E0E37 !important;
+                    color: #ccc;
+                }
+            }
+
+            .nav-link {
+                color: #fff;
+                line-height: 35px;
+                @media (min-width: 1200px) and (max-width: 1399.99px){
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &.navbar-expand-sm .navbar-toggler{
+            @media (min-width: 1200px){
+                .navbar-expand-sm .navbar-toggler {
+                     display: none !important;
+                }
+                .collapse.navbar-collapse{
+                    display: block !important;
+                }
+            }
+        
+            @media (max-width: 1199.99px){
+                .navbar-expand-sm .navbar-toggler {
+                     display: block !important;
+
+                     .collapse.navbar-collapse{
+                        display: none !important;;
+                    }
+                }
+        
+                
+            }
+        }
+    }
+
+    
+}
+
+
+.bsnav-dark .navbar-nav .nav-item,
+.bsnav-light .navbar-nav .nav-item {
+    color: #fff
+}
+
+
+
+.navbar-expand-sm .navbar-toggler {
+    @media (min-width: 1199.9px){
+        display: none !important;
+    }
+
+    @media (max-width: 1199px){
+        display: block !important;
+    }
+}
+
+
+.navbar-expand-sm .navbar-collapse {
+    @media (max-width: 1199px){
+        display: none !important;
+        display: none !important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+
+
+
+
+
+/*# sourceMappingURL=bsnav.min.css.map */
